@@ -1,0 +1,197 @@
+<div className='container'>
+                <form onSubmit={this.submitForm}>
+                    <input 
+                    type='text'
+                        placeholder='Username'
+                        name="username"
+                        onChange={this.handleChange}
+                        value={this.state.username}
+                        className='form-control form-group'
+                    />
+                    <input type='password'
+                        name="password"
+                        placeholder='Password'
+                        onChange={this.handleChange}
+                        value={this.state.password}
+                        className='form-control form-group'
+                    />
+                    <input type='submit' className='btn btn-danger btn-block' value='Submit' />
+                </form>
+
+            </div>
+
+
+
+
+
+            SIGNUP->
+
+
+
+            <div>
+                <div className='container'>
+                    <h1>Your props are-{this.props.logged}</h1>
+                    <div className='form-div'>
+                        <form onSubmit={this.onSubmit}>
+                            <input type='text'
+                                placeholder='Full Name'
+                                name="fullName"
+                                onChange={this.handleChange}
+                                value={this.state.fullName}
+                                className='form-control form-group'
+                            />
+                            <input type='text'
+                                placeholder='Username'
+                                name="username"
+                                onChange={this.handleChange}
+                                value={this.state.username}
+                                className='form-control form-group'
+                            />
+                            <input type='text'
+                                placeholder='E-mail'
+                                name="email"
+                                onChange={this.handleChange}
+                                value={this.state.email}
+                                className='form-control form-group'
+                            />
+                            <input type='password'
+                                name="password"
+                                placeholder='Password'
+                                onChange={this.handleChange}
+                                value={this.state.password}
+                                className='form-control form-group'
+                            />
+                            <input type='submit' className='btn btn-danger btn-block' value='Submit' />
+
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+
+            </div >
+
+
+SHOWWWWWW////
+
+
+<div key={index}>
+
+                <h3>Title: {posts.title}</h3>
+                <h3>username:{posts.username}</h3>
+                <h3>description:{posts.description}</h3>
+                <h3>body:{posts.body}</h3>
+                <button onClick={() => this.Editpost(posts)}>Edit Post</button>
+                <button onClick={() => this.DeletePost(posts)}>Delete</button>
+            </div>
+            <button onClick={this.handleLogout}> logout</button>
+            NEWWWWW
+          
+          
+          
+          
+            <div>
+                <div className='container'>
+                    <div className='form-div'>
+                        <form onSubmit={this.onSubmit}>
+                            <input type='text'
+                                placeholder='Username'
+                                name="username"
+                                onChange={this.handleChange}
+                                value={this.state.user}
+                                className='form-control form-group'
+                            />
+                            <input type='text'
+                                placeholder='Title'
+                                name="title"
+                                onChange={this.handleChange}
+                                value={this.state.title}
+                                className='form-control form-group'
+                            />
+                            <input type='text'
+                                name="description"
+                                placeholder='Description'
+                                onChange={this.handleChange}
+                                value={this.state.description}
+                                className='form-control form-group'
+                            />
+                            <input type='description'
+                                name="body"
+                                placeholder='body'
+                                onChange={this.handleChange}
+                                value={this.state.body}
+                                className='form-control form-group'
+                            />
+
+
+                            <input type='submit' className='btn btn-danger btn-block' value='Submit' />
+
+
+                        </form>
+
+                        <div>
+                            <h1>welcome user, you are {this.state.user}</h1>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div >
+
+
+
+
+
+
+
+            EDIT->>>
+            <div>
+                <div className='container'>
+                    <div className='form-div'>
+                        <form onSubmit={this.onSubmit}>
+                            <div>Edit your Post</div>
+                            <input type='text'
+                                placeholder='Title'
+                                name="title"
+                                onChange={this.handleChange}
+                                value={this.state.title}
+                                className='form-control form-group'
+                            />
+                            <input type='text'
+                                name="description"
+                                placeholder='Desc'
+                                onChange={this.handleChange}
+                                value={this.state.description}
+                                className='form-control form-group'
+                            />
+                            <input type='description'
+                                name="body"
+                                placeholder='body'
+                                onChange={this.handleChange}
+                                value={this.state.body}
+                                className='form-control form-group'
+                            />
+
+
+                            <input type='submit' className='btn btn-danger btn-block' value='Submit' />
+
+
+                        </form>
+
+                        <div>
+                            <h1>welcome user, you are {this.state.user}</h1>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div >
+

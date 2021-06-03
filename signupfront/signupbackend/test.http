@@ -1,0 +1,19 @@
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+    "fullName" : "Khan",
+    "username" : "Student",
+    "email" : "stud@gmail.com",
+    "password" : "okay123",
+    "posts" : 
+      
+           {
+              "title": "2ndPOSTT",
+                "body":"sup",
+                "desc":"niceeeeee"
+           
+    
+           }
+    
+}

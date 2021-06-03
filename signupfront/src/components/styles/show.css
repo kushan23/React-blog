@@ -1,0 +1,30 @@
+.show{
+  
+   text-decoration: underline;
+   font-size: xx-large;
+   font-family: 'Times New Roman', Times, serif;
+   
+    
+}
+.oops{
+    color: red;
+    text-decoration: solid;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    
+}
+.link{
+    text-decoration: dotted;
+    font-size: xx-large;
+        position: fixed;
+        top: 50%;
+        left: 47%;
+        
+}
+.logout{
+    position: fixed;
+        top: 1%;
+        left:94%;
+    color: black;
+}
